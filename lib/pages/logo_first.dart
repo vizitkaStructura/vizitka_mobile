@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:vizitka_mobile/pages/logo_second.dart';
 
 
 class Login_firstScreen extends StatefulWidget {
@@ -53,7 +54,11 @@ class _Login_firstScreenState extends State<Login_firstScreen> {
             ),
             SizedBox(height: 152),
             TextButton(
-              onPressed: (){},
+              onPressed: (){
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Login_secondScreen()));
+              },
               child: Text('Продолжить',
                 style: TextStyle(
                     fontSize: 20,
