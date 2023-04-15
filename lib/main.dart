@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:vizitka_mobile/pages/logo_first.dart';
-import 'package:vizitka_mobile/pages/logo_second.dart';
+import 'package:vizitka_mobile/pages/addService.dart';
+import 'package:vizitka_mobile/pages/login_first.dart';
+import 'package:vizitka_mobile/pages/login_second.dart';
+import 'package:vizitka_mobile/pages/login_third.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(fontFamily: 'Montserrat'),
-      home: Login_secondScreen(),
+      home: LoginFirstScreen(),
     );
   }
 }

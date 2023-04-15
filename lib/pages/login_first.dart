@@ -1,21 +1,21 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:vizitka_mobile/pages/logo_second.dart';
+import 'package:vizitka_mobile/pages/login_second.dart';
 
 
-class Login_firstScreen extends StatefulWidget {
+class LoginFirstScreen extends StatefulWidget {
 
 
 
-  Login_firstScreen({Key? key}) : super(key: key);
+  LoginFirstScreen({Key? key}) : super(key: key);
 
 
   @override
-  State<Login_firstScreen> createState() => _Login_firstScreenState();
+  State<LoginFirstScreen> createState() => _LoginFirstScreenState();
 }
 
-class _Login_firstScreenState extends State<Login_firstScreen> {
+class _LoginFirstScreenState extends State<LoginFirstScreen> {
 
 
   @override
@@ -57,7 +57,7 @@ class _Login_firstScreenState extends State<Login_firstScreen> {
               onPressed: (){
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Login_secondScreen()));
+                    MaterialPageRoute(builder: (context) => LoginSecondScreen()));
               },
               child: Text('Продолжить',
                 style: TextStyle(

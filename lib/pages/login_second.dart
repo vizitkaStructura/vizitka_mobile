@@ -1,15 +1,20 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:vizitka_mobile/pages/login_third.dart';
 
 
-class Login_secondScreen extends StatelessWidget {
+class LoginSecondScreen extends StatefulWidget {
 
 
 
-  Login_secondScreen({Key? key}) : super(key: key);
+  LoginSecondScreen({Key? key}) : super(key: key);
 
+  @override
+  State<LoginSecondScreen> createState() => _LoginSecondScreenState();
+}
 
+class _LoginSecondScreenState extends State<LoginSecondScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -83,7 +88,12 @@ class Login_secondScreen extends StatelessWidget {
             ),
             SizedBox(height: 60),
             TextButton(
-              onPressed: (){},
+              onPressed: (){
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => LoginThirdScreen()));
+
+              },
               child: Text('Продолжить',
                 style: TextStyle(
                     fontSize: 20,
