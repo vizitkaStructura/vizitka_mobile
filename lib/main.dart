@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:vizitka_mobile/pages/aboutNew.dart';
 import 'package:vizitka_mobile/pages/addService.dart';
-import 'package:vizitka_mobile/pages/login_first.dart';
-import 'package:vizitka_mobile/pages/login_second.dart';
-import 'package:vizitka_mobile/pages/login_third.dart';
+import 'package:vizitka_mobile/pages/bonuses.dart';
+import 'package:vizitka_mobile/pages/home.dart';
+import 'package:vizitka_mobile/pages/loginFirst.dart';
+import 'package:vizitka_mobile/pages/loginNew.dart';
+import 'package:vizitka_mobile/pages/loginSecond.dart';
+import 'package:vizitka_mobile/pages/loginThird.dart';
+import 'package:vizitka_mobile/pages/navigationBar.dart';
+import 'package:vizitka_mobile/pages/navigationBarNew.dart';
+import 'package:vizitka_mobile/pages/othersVizitka.dart';
+import 'package:vizitka_mobile/pages/vizitkaNew.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(fontFamily: 'Montserrat'),
-      home: LoginFirstScreen(),
+      home: LoginNewScreen()
     );
   }
 }
