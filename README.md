@@ -1,16 +1,10 @@
 # vizitka_mobile
 
-A new Flutter project.
+InFly - приложение, позволяющее делиться электронными визитками. Работает на Dart при помощи фрейморка для кроссплатформенной разработки Flutter.
 
-## Getting Started
+## Запуск приложения
 
-This project is a starting point for a Flutter application.
+Для запуска пиложения достаточно скачать файл app-release.apk, назодящийся в глвной папке проекта.
 
-A few resources to get you started if this is your first Flutter project:
+Также приложение можно скачать с (https://drive.google.com/drive/folders/1B7Z5qcojhPsjznRzFpt1whyoKjgXubtA?usp=share_link "Google диска")
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
